@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Wayfare Travel Recommendations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="travel_recommendation.html" class="brand">Way<span>fare</span></a>
+      <ul class="nav-links">
+        <li><a href="travel_recommendation.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <h1>Get in touch</h1>
+      <p>Have a place we should know about, or a question about a trip you're planning? Send us a note.</p>
+    </div>
+  </header>
+
+  <section class="section container">
+    <div class="contact-wrap">
+      <div class="contact-info">
+        <h2>Reach us directly</h2>
+        <p>We read every message and usually reply within two business days.</p>
+        <ul>
+          <li>Email: hello@wayfaretravel.example</li>
+          <li>Phone: +1 (415) 555-0138</li>
+          <li>Office: 214 Harbor Street, San Francisco, CA</li>
+        </ul>
+      </div>
+
+      <div>
+        <form class="contact-form" onsubmit="return false;">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us what's on your mind..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-large" style="align-self:flex-start;">Send Message</button>
+          <p class="form-note">This form is for demonstration — submissions aren't sent anywhere yet.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 Wayfare Travel. Explore thoughtfully.
+  </footer>
+</body>
+</html>

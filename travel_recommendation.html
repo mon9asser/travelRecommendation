@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wayfare Travel Recommendations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="travel_recommendation.html" class="brand">Way<span>fare</span></a>
+      <ul class="nav-links">
+        <li><a href="travel_recommendation.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+      </ul>
+      <div class="search-group">
+        <input type="text" id="searchInput" placeholder="Search beaches, temples, countries...">
+        <button id="searchBtn" class="btn btn-primary">Search</button>
+        <button id="clearBtn" class="btn btn-ghost">Clear</button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero-content">
+      <div class="eyebrow-social">
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
+        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter/X">X</a>
+      </div>
+      <h1>Go further than the postcard.</h1>
+      <p>Wayfare gathers the coastlines, temples, and cities that reward a closer look — the kind of trip you plan around a feeling, not just a flight.</p>
+      <div class="hero-actions">
+        <a href="#results" class="btn btn-primary btn-large">Book Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container results-section" id="results">
+    <div class="results-heading">
+      <h2 id="resultsHeading">Recommendations</h2>
+      <span class="results-hint">Try "beach", "temple", or "country" in the search bar above.</span>
+    </div>
+    <div class="results-grid" id="resultsGrid">
+      <div class="empty-state">Your recommendations will appear here once you search.</div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Wayfare Travel. Explore thoughtfully.
+  </footer>
+
+  <script src="travel_recommendation.js"></script>
+</body>
+</html>

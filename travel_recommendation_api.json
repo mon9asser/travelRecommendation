@@ -1,0 +1,83 @@
+{
+  "beaches": [
+    {
+      "name": "Glass Beach, California",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+      "description": "A rugged stretch of Northern California coast where decades of sea-tumbled glass glitter across the sand like scattered gemstones."
+    },
+    {
+      "name": "Navagio Beach, Greece",
+      "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&q=80",
+      "description": "A hidden cove on Zakynthos island, reachable only by boat, framed by white limestone cliffs and turquoise Ionian water."
+    },
+    {
+      "name": "Whitehaven Beach, Australia",
+      "imageUrl": "https://images.unsplash.com/photo-1494548162494-384bba4ab999?w=800&q=80",
+      "description": "Seven kilometers of pure silica sand in the Whitsunday Islands, so fine it stays cool underfoot even at midday."
+    }
+  ],
+  "temples": [
+    {
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "https://images.unsplash.com/photo-1508964942454-1a56651d54ac?w=800&q=80",
+      "description": "The world's largest religious monument, its five lotus-bud towers rising over jungle at sunrise in a scene few forget."
+    },
+    {
+      "name": "Kinkaku-ji, Japan",
+      "imageUrl": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=800&q=80",
+      "description": "Kyoto's Golden Pavilion, its top two floors covered in gold leaf, mirrored perfectly in the still pond below."
+    },
+    {
+      "name": "Prambanan, Indonesia",
+      "imageUrl": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=800&q=80",
+      "description": "A ninth-century Hindu temple compound near Yogyakarta, its spires the tallest Hindu structures in Southeast Asia."
+    }
+  ],
+  "countries": [
+    {
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Kyoto",
+          "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80",
+          "description": "Wooden temples, bamboo groves, and quiet lantern-lit streets in Japan's former imperial capital."
+        },
+        {
+          "name": "Tokyo",
+          "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80",
+          "description": "Neon crossings, centuries-old shrines, and some of the world's best food, all within a single subway map."
+        }
+      ]
+    },
+    {
+      "name": "Italy",
+      "cities": [
+        {
+          "name": "Rome",
+          "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80",
+          "description": "Two thousand years of history stacked on top of itself, from the Colosseum to sunlit piazzas and espresso bars."
+        },
+        {
+          "name": "Venice",
+          "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?w=800&q=80",
+          "description": "A city built on water, where gondolas glide past faded palazzos and every turn reveals another quiet canal."
+        }
+      ]
+    },
+    {
+      "name": "Peru",
+      "cities": [
+        {
+          "name": "Cusco",
+          "imageUrl": "https://images.unsplash.com/photo-1531065208531-4036c0dba3ca?w=800&q=80",
+          "description": "The former Incan capital, cobblestone streets built on ancient stone foundations, gateway to Machu Picchu."
+        },
+        {
+          "name": "Lima",
+          "imageUrl": "https://images.unsplash.com/photo-1531968455001-5c5272a41129?w=800&q=80",
+          "description": "A coastal capital known for cliffside parks, colonial architecture, and some of South America's finest cooking."
+        }
+      ]
+    }
+  ]
+}
